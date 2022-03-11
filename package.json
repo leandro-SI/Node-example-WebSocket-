@@ -1,0 +1,30 @@
+{
+  "name": "node-example-websocket-",
+  "version": "1.0.0",
+  "description": "Exemplo de implementação de um servidor WebSocket utilizando Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandro-SI/Node-example-WebSocket-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandro-SI/Node-example-WebSocket-/issues"
+  },
+  "homepage": "https://github.com/leandro-SI/Node-example-WebSocket-#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  }
+}
